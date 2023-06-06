@@ -1,4 +1,4 @@
-# Bioinformator (bioinfomator)
+# Bioinformator (bioinformator)
 
 Bioinformator - app for searching species around some location
 
@@ -24,4 +24,4 @@ quasar build -m pwa
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
 
 ### Deployed app 
-Click [Bioinformator)(https://bioinformator.netlify.app/)
+Click [Bioinformator](https://bioinformator.netlify.app/)
