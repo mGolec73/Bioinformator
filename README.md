@@ -22,3 +22,6 @@ quasar build -m pwa
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+
+### Deployed app 
+Click [Bioinformator)(https://bioinformator.netlify.app/)
