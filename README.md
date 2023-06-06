@@ -17,7 +17,7 @@ quasar dev -m pwa
 
 ### Build the app for production
 ```bash
-quasar build -pwa
+quasar build -m pwa
 ```
 
 ### Customize the configuration
