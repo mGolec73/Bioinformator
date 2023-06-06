@@ -55,7 +55,7 @@ export default defineComponent({
       speciesList:[],
       trimCoord:{},
       currentPage: 1,
-      pageSize: 5,
+      pageSize: 7,
       settings:{},
     }
   },

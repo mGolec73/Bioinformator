@@ -332,9 +332,7 @@ q-input{
   height: 15px;
   padding-left: 10px;
 }
-.ol-mouse-position{
-  padding: 11px 10px 10px 10px;
-}
+
 
 
 </style>
