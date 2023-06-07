@@ -89,7 +89,7 @@ export default {
         return {
             showPopup: false,
             searchTerm: "",
-            radius: 0,
+            radius: 1000,
             coordinatess:{},
             geodata:{},
             overlay:{},
