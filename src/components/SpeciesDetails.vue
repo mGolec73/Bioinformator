@@ -90,6 +90,9 @@ export default {
     photosLength(){
       return useSpecStore().getDetailsBySpeciesId(this.speciesId).Photos.length;
     },
+    sources(){
+      return useSpecStore().getDetailsBySpeciesId(this.speciesId).Sources;
+    },
     photoUrl(){
       return useSettStore().getSettings().PhotoUrl;
 

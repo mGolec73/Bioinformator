@@ -1,7 +1,7 @@
 <template>
   <q-page>
-<h5>Upute za upotrebu</h5>
-<p> Ako želite vidjeti bolje snalaženje na karti - gumb u gornjem desnom kutu omogućuje prikaz raznih slojeva</p>
+<h6>Upute za upotrebu</h6>
+<p> Ako želite detaljnije informacije na karti - gumb u gornjem desnom kutu omogućuje prikaz raznih slojeva</p>
 <p>Lokaciju možete odabrati na tri načina:</p>
 <p>1. ručno unosom koordinata u polja za unos latitude i longitude</p>
 <p>2. klinite na gumb Lociraj me! u donjem desnom kutu aplikacije i GPS će dohvatiti vašu lokaciju</p>
@@ -26,7 +26,11 @@ export default defineComponent({
 })
 </script>
 <style scoped>
-p, h5 {
-padding: 0px 0px 0px 10px;
+p, h5, h6 {
+padding: 0px 0px 0px 15px;
+}
+h5,h6{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 </style>

@@ -61,10 +61,10 @@ const linksList = [
     link:'/'
   },
   {
-    title: 'Pomoć',
+    title: 'O aplikaciji',
     caption: 'Upute za korištenje',
     icon: 'help',
-    link: '/help'
+    link: '/info'
   },
 
 ]

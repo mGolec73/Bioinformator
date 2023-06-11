@@ -6,11 +6,11 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/MapPage.vue') },
-      { path: 'help', component : HelpPage},
+      { path: 'info', component : HelpPage},
       { path:'species/:radius/:lat/:lng', name:'species',
         component: () => import('pages/SpeciesPage.vue'), props:true},
       { path:'speciesDetails/:id',  name:'speciesD',
-        component: () => import('pages/SpecDetails.vue'), props:true},
+        component: () => import('pages/SpecDetailsPage.vue'), props:true},
     ]
   },
 
