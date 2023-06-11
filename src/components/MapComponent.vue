@@ -21,7 +21,7 @@
               dense
               v-model="radius"
               :min="0"
-              :max="10000"
+              :max="30000"
 
             />
 
